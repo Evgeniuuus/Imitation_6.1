@@ -26,7 +26,7 @@ def DtDRV():
 
     for i in range(len(table)):
         if (sum_Xi[i] * sum_Yi[i]) != 0.1:
-            print("\nАксиома локальной независимости выполняется!")
+            print("\nАксиома локальной независимости не выполняется!")
             break
         else:
             exit()
